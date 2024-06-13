@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- bootstrap -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+  <!-- font -->
+
+  <!-- javascript -->
+  <script src="Scripts/jquery-3.7.1.min.js"></script>
+  <script src="Javascript.js"></script>
+  <!-- javascript -->
+
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <img src="Assets/img/Catering-Logo-Solo.png" id="logo-icon-navbar">
+      </li>
+      <li>
+        <img src="Assets/img/search-icon.png" id="search-icon">
+      </li>
+      <li>
+        <input type="text" id="search-bar-navbar" placeholder="Search">
+      </li>
+      <li><a style="text-decoration: underline; color: black;" href="Home.html" class="home-navbar">Home</a></li>
+      <li><a href="Contacts.html" class="contacts-navbar">Contacts</a></li>
+      <li><a href="Reservation.html" class="reservation-navbar">Request</a></li>
+      <li><a href="Menu.html" class="services-navbar">Menu</a></li>
+      <li><a href="About-us.html" class="about-navbar">About us</a></li>
+    </ul>
+  </nav>
+
+
+<div class="upper-div-home">
+  <div class="upper-home-left">
+    <h1 id="ccwc">CUISINE
+      <br>CRAFTED
+      <br> WITH CARE
+    </h1>
+    <div class="line-below-ccwc"></div>
+    <p id="text-below-ccwc">Savor every moment, we’ll handle the feast!</p>
+    <input class="upper-home-btn" type="button" onclick="requestPage()" value="Request Now" id="request-now-home" style="margin-right: 20px;">
+    <input class="upper-home-btn" type="button" onclick="contactPage()" value="Contact Us" id="contact-us-home">
+  </div>
+  <div class="upper-home-right">
+    <img id="upper-home-pic" src="Assets/img/upper-home-pic.png" alt="">
+  </div>
+</div>
+
+
+<div class="upper2-div-home">
+  <div class="left-div">
+    <img id="mv-pic" src="Assets/img/mv-pic.png" alt="">
+  </div>
+  <div class="right-div">
+    <div class="mission-div">Mission</div>
+    <div class="mission">
+      <p>At our catering service, we are driven by a clear mission: to craft unforgettable culinary experiences that delight our clients and their guests. We envision ourselves as more than just a catering company; we aim to be the trusted partner that turns every occasion into a cherished memory. With a passion for culinary excellence and a commitment to impeccable service, we strive to exceed expectations at every event we cater.</p>
+    </div>
+    <div class="vision-div">Vision</div>
+    <div class="vision">
+      <p>Our vision is to create not just meals, but moments of joy, connection, and celebration that linger in the hearts and palates of all who gather around our tables. With innovation as our compass and hospitality as our guide, we embark on each event with enthusiasm, creativity, and a dedication to making dreams come true, one bite at a time.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="our-menu-div">
+  <div class="line-above-om-food"></div>
+  <h1>Our Menu</h1>
+  <img id="our-menu-bg" src="Assets/img/bgimagereservation.jpg" alt="">
+  <div class="om-coat">
+    <div class="om-soup">
+      <img src="Assets/img/soup-ourmenu.png" alt="">
+      <p>Soup</p>
+      <label>“Warm your soul with our savory 
+soups! Made with fresh ingredients
+ and bursting with flavor, our soups
+ are the perfect comfort food for 
+any occasion. From creamy classics
+to hearty broths, indulge in a bowl 
+of deliciousness today!”</label>
+      <div class="line-below-om-food"></div>
+      <input class="om-view-btn" type="button" onclick="viewSoup()" value="View" id="view-soup">
+    </div>
+
+    <div class="om-main">
+      <img src="Assets/img/main-ourmenu.png" alt="">
+      <p>Main Entree</p>
+      <label>"Elevate your dining experience with our 
+mouthwatering main entrees! From succulent 
+steaks to gourmet seafood dishes, each entree
+ is crafted with care and precision to deliver an
+unforgettable culinary journey. Explore our menu
+ and savor the flavors of excellence tonight!"</label>
+      <div class="line-below-om-food"></div>
+      <input class="om-view-btn" type="button" onclick="viewMain()" value="View" id="view-main">
+    </div>
+
+    <div class="om-dessert">
+      <img src="Assets/img/dessert-ourmenu.png" alt="">
+      <p>Dessert</p>
+      <label>"Satisfy your sweet cravings with our
+ irresistible desserts! Indulge in decadent cakes, heavenly pastries, and creamy delightsthat will tantalize your taste buds. Whether it's a special celebration or a sweet treat for yourself, our desserts are sure to delight!"</label>
+      <div class="line-below-om-food"></div>
+      <input class="om-view-btn" type="button" onclick="viewDessert()" value="View" id="view-dessert">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>
